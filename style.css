@@ -8,7 +8,8 @@ body {
   text-align: center;
 }
 
-#right-wheel {
+#right-wheel,
+#left-wheel {
   animation: wheel 2s infinite linear;
   transform-origin: center;
   transform-box: fill-box;
