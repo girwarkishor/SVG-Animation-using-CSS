@@ -9,8 +9,9 @@ body {
 }
 
 #right-wheel {
-  animation: wheel 1s ease;
+  animation: wheel 2s infinite linear;
   transform-origin: center;
+  transform-box: fill-box;
 }
 
 @keyframes wheel {
